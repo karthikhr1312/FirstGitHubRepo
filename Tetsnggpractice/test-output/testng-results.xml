@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Practicing testng" duration-ms="169" started-at="2019-11-06T16:18:28 IST" finished-at="2019-11-06T16:18:28 IST">
+    <groups>
+      <group name="karthik">
+        <method signature="dummy1.onetest1()[pri:0, instance:Prctce.dummy1@2ac273d3]" name="onetest1" class="Prctce.dummy1"/>
+        <method signature="dummy2.twotest3()[pri:0, instance:Prctce.dummy2@4f970963]" name="twotest3" class="Prctce.dummy2"/>
+        <method signature="dummy3.threetest5()[pri:0, instance:Prctce.dummy3@47ef968d]" name="threetest5" class="Prctce.dummy3"/>
+      </group> <!-- karthik -->
+    </groups>
+    <test name="login" duration-ms="69" started-at="2019-11-06T16:18:28 IST" finished-at="2019-11-06T16:18:28 IST">
+      <class name="Prctce.dummy1">
+        <test-method status="PASS" signature="onetest2()[pri:0, instance:Prctce.dummy1@2ac273d3]" name="onetest2" is-config="true" duration-ms="15" started-at="2019-11-06T16:18:28 IST" finished-at="2019-11-06T16:18:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onetest2 -->
+        <test-method status="PASS" signature="onetest1()[pri:0, instance:Prctce.dummy1@2ac273d3]" name="onetest1" duration-ms="16" started-at="2019-11-06T16:18:28 IST" finished-at="2019-11-06T16:18:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onetest1 -->
+      </class> <!-- Prctce.dummy1 -->
+    </test> <!-- login -->
+    <test name="admin" duration-ms="22" started-at="2019-11-06T16:18:28 IST" finished-at="2019-11-06T16:18:28 IST">
+      <class name="Prctce.dummy2">
+        <test-method status="PASS" signature="twotest3()[pri:0, instance:Prctce.dummy2@4f970963]" name="twotest3" is-config="true" duration-ms="16" started-at="2019-11-06T16:18:28 IST" finished-at="2019-11-06T16:18:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twotest3 -->
+        <test-method status="PASS" signature="twotest4()[pri:0, instance:Prctce.dummy2@4f970963]" name="twotest4" is-config="true" duration-ms="0" started-at="2019-11-06T16:18:28 IST" finished-at="2019-11-06T16:18:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twotest4 -->
+        <test-method status="PASS" signature="twotest4()[pri:0, instance:Prctce.dummy2@4f970963]" name="twotest4" duration-ms="0" started-at="2019-11-06T16:18:28 IST" finished-at="2019-11-06T16:18:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twotest4 -->
+        <test-method status="PASS" signature="twotest3()[pri:0, instance:Prctce.dummy2@4f970963]" name="twotest3" duration-ms="0" started-at="2019-11-06T16:18:28 IST" finished-at="2019-11-06T16:18:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twotest3 -->
+        <test-method status="PASS" signature="twotest4()[pri:0, instance:Prctce.dummy2@4f970963]" name="twotest4" is-config="true" duration-ms="0" started-at="2019-11-06T16:18:28 IST" finished-at="2019-11-06T16:18:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twotest4 -->
+      </class> <!-- Prctce.dummy2 -->
+    </test> <!-- admin -->
+    <test name="logout" duration-ms="0" started-at="2019-11-06T16:18:28 IST" finished-at="2019-11-06T16:18:28 IST">
+      <class name="Prctce.dummy3">
+        <test-method status="PASS" signature="threetest6()[pri:0, instance:Prctce.dummy3@47ef968d]" name="threetest6" duration-ms="0" started-at="2019-11-06T16:18:28 IST" finished-at="2019-11-06T16:18:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- threetest6 -->
+        <test-method status="PASS" signature="threetest5()[pri:0, instance:Prctce.dummy3@47ef968d]" name="threetest5" duration-ms="0" started-at="2019-11-06T16:18:28 IST" finished-at="2019-11-06T16:18:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- threetest5 -->
+      </class> <!-- Prctce.dummy3 -->
+    </test> <!-- logout -->
+  </suite> <!-- Practicing testng -->
+</testng-results>

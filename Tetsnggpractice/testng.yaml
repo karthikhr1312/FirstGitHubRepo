@@ -1,0 +1,15 @@
+name: Practicing testng
+configFailurePolicy: skip
+tests:
+  - name: login
+  classes:
+    - Prctce.dummy1
+
+  - name: admin
+  classes:
+    - Prctce.dummy2
+
+  - name: logout
+  classes:
+    - Prctce.dummy3
+
